@@ -1,22 +1,23 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-03-10T23:47:16Z",
+  "generated_at": "2026-03-10T23:48:22Z",
   "repository": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-  "total_skills": 693,
+  "total_skills": 698,
   "total_domains": 1,
-  "total_subdomains": 30,
+  "total_subdomains": 33,
   "domain_stats": {
-    "cybersecurity": 693
+    "cybersecurity": 698
   },
   "subdomain_stats": {
     "digital-forensics": 36,
     "malware-analysis": 38,
     "security-operations": 34,
-    "threat-intelligence": 48,
+    "threat-intelligence": 49,
     "cloud-security": 56,
     "soc-operations": 33,
     "mobile-security": 12,
     "container-security": 29,
+    "log-analysis": 1,
     "phishing-defense": 16,
     "network-security": 37,
     "incident-response": 25,
@@ -24,7 +25,7 @@
     "devsecops": 16,
     "identity-access-management": 34,
     "vulnerability-management": 25,
-    "threat-hunting": 45,
+    "threat-hunting": 46,
     "web-application-security": 42,
     "penetration-testing": 23,
     "zero-trust-architecture": 13,
@@ -33,12 +34,14 @@
     "ot-ics-security": 28,
     "api-security": 28,
     "threat-detection": 4,
+    "identity-security": 1,
     "ransomware-defense": 5,
     "deception-technology": 2,
     "application-security": 2,
     "compliance-governance": 5,
     "identity-and-access-management": 1,
-    "red-team": 2
+    "red-team": 2,
+    "offensive-security": 1
   },
   "top_tags": [
     {
@@ -560,6 +563,22 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/analyzing-kubernetes-audit-logs"
+    },
+    {
+      "name": "analyzing-linux-audit-logs-for-intrusion",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "log-analysis",
+      "tags": [
+        "auditd",
+        "linux-forensics",
+        "syscall-monitoring",
+        "intrusion-detection"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/analyzing-linux-audit-logs-for-intrusion"
     },
     {
       "name": "analyzing-linux-elf-malware",
@@ -4068,6 +4087,22 @@
       "path": "skills/detecting-network-scanning-with-ids-signatures"
     },
     {
+      "name": "detecting-oauth-token-theft",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "identity-security",
+      "tags": [
+        "oauth",
+        "token-theft",
+        "identity-attacks",
+        "impossible-travel"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/detecting-oauth-token-theft"
+    },
+    {
       "name": "detecting-pass-the-hash-attacks",
       "description": "Detect Pass-the-Hash attacks by analyzing NTLM authentication patterns, identifying Type 3 logons with NTLM where Kerberos is expected, and correlating with credential dumping.",
       "domain": "cybersecurity",
@@ -5560,6 +5595,22 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/hunting-for-dcsync-attacks"
+    },
+    {
+      "name": "hunting-for-defense-evasion-via-timestomping",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "threat-hunting",
+      "tags": [
+        "timestomping",
+        "ntfs-forensics",
+        "mft-analysis",
+        "defense-evasion"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/hunting-for-defense-evasion-via-timestomping"
     },
     {
       "name": "hunting-for-dns-tunneling-with-zeek",
@@ -8190,6 +8241,22 @@
       "path": "skills/implementing-security-chaos-engineering"
     },
     {
+      "name": "implementing-security-information-sharing-with-stix2",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "threat-intelligence",
+      "tags": [
+        "stix",
+        "taxii",
+        "threat-sharing",
+        "intelligence-exchange"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/implementing-security-information-sharing-with-stix2"
+    },
+    {
       "name": "implementing-security-monitoring-with-datadog",
       "description": "Implement security monitoring using Datadog's Cloud SIEM, log analysis, and threat detection capabilities to identify and respond to security events across cloud infrastructure.",
       "domain": "cybersecurity",
@@ -9332,6 +9399,22 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/performing-bandwidth-throttling-attack-simulation"
+    },
+    {
+      "name": "performing-binary-exploitation-analysis",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "offensive-security",
+      "tags": [
+        "binary-exploitation",
+        "pwntools",
+        "rop-chains",
+        "buffer-overflow"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/performing-binary-exploitation-analysis"
     },
     {
       "name": "performing-blind-ssrf-exploitation",
