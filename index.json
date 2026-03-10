@@ -1,19 +1,19 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-03-10T23:49:32Z",
+  "generated_at": "2026-03-10T23:51:29Z",
   "repository": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-  "total_skills": 707,
+  "total_skills": 712,
   "total_domains": 1,
   "total_subdomains": 34,
   "domain_stats": {
-    "cybersecurity": 707
+    "cybersecurity": 712
   },
   "subdomain_stats": {
     "digital-forensics": 37,
     "malware-analysis": 39,
     "security-operations": 34,
     "threat-intelligence": 50,
-    "cloud-security": 56,
+    "cloud-security": 57,
     "soc-operations": 33,
     "mobile-security": 12,
     "container-security": 29,
@@ -21,11 +21,11 @@
     "phishing-defense": 16,
     "network-security": 38,
     "incident-response": 25,
+    "threat-hunting": 50,
     "red-teaming": 24,
     "devsecops": 16,
-    "identity-access-management": 34,
+    "identity-access-management": 35,
     "vulnerability-management": 25,
-    "threat-hunting": 48,
     "web-application-security": 42,
     "penetration-testing": 23,
     "zero-trust-architecture": 13,
@@ -37,7 +37,7 @@
     "identity-security": 1,
     "ransomware-defense": 5,
     "deception-technology": 2,
-    "application-security": 2,
+    "application-security": 3,
     "compliance-governance": 5,
     "identity-and-access-management": 1,
     "zero-trust": 1,
@@ -51,7 +51,7 @@
     },
     {
       "tag": "threat-hunting",
-      "count": 55
+      "count": 56
     },
     {
       "tag": "penetration-testing",
@@ -79,7 +79,7 @@
     },
     {
       "tag": "forensics",
-      "count": 33
+      "count": 34
     },
     {
       "tag": "soc",
@@ -110,6 +110,10 @@
       "count": 25
     },
     {
+      "tag": "zero-trust",
+      "count": 25
+    },
+    {
       "tag": "phishing",
       "count": 24
     },
@@ -119,10 +123,6 @@
     },
     {
       "tag": "access-control",
-      "count": 24
-    },
-    {
-      "tag": "zero-trust",
       "count": 24
     }
   ],
@@ -1027,6 +1027,27 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/analyzing-phishing-email-headers"
+    },
+    {
+      "name": "analyzing-powershell-empire-artifacts",
+      "description": "Detect PowerShell Empire framework artifacts in Windows event logs by identifying Base64 encoded launcher patterns, default user agents, staging URL structures, stager IOCs, and known Empire module signatures in Script Block Logging events.",
+      "domain": "cybersecurity",
+      "subdomain": "threat-hunting",
+      "tags": [
+        "PowerShell-Empire",
+        "threat-hunting",
+        "Script-Block-Logging",
+        "base64",
+        "stager",
+        "C2",
+        "MITRE-ATT&CK",
+        "T1059.001",
+        "forensics"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/analyzing-powershell-empire-artifacts"
     },
     {
       "name": "analyzing-powershell-script-block-logging",
@@ -3430,6 +3451,27 @@
       "path": "skills/detecting-azure-service-principal-abuse"
     },
     {
+      "name": "detecting-azure-storage-account-misconfigurations",
+      "description": "Audit Azure Blob and ADLS storage accounts for public access exposure, weak or long-lived SAS tokens, missing encryption at rest, disabled HTTPS-only traffic, and outdated TLS versions using the azure-mgmt-storage Python SDK.",
+      "domain": "cybersecurity",
+      "subdomain": "cloud-security",
+      "tags": [
+        "Azure",
+        "storage-accounts",
+        "blob-storage",
+        "ADLS",
+        "SAS-tokens",
+        "encryption",
+        "public-access",
+        "cloud-misconfiguration",
+        "azure-mgmt-storage"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/detecting-azure-storage-account-misconfigurations"
+    },
+    {
       "name": "detecting-beaconing-patterns-with-zeek",
       "description": ">",
       "domain": "cybersecurity",
@@ -5801,6 +5843,27 @@
       "path": "skills/hunting-for-lolbins-execution-in-endpoint-logs"
     },
     {
+      "name": "hunting-for-ntlm-relay-attacks",
+      "description": "Detect NTLM relay attacks by analyzing Windows Event 4624 logon type 3 with NTLMSSP authentication, identifying IP-to-hostname mismatches, Responder traffic signatures, SMB signing status, and suspicious authentication patterns across the domain.",
+      "domain": "cybersecurity",
+      "subdomain": "threat-hunting",
+      "tags": [
+        "NTLM-relay",
+        "Windows-events",
+        "Event-4624",
+        "NTLMSSP",
+        "Responder",
+        "SMB-signing",
+        "credential-access",
+        "T1557.001",
+        "Active-Directory"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/hunting-for-ntlm-relay-attacks"
+    },
+    {
       "name": "hunting-for-persistence-mechanisms-in-windows",
       "description": "Systematically hunt for adversary persistence mechanisms across Windows endpoints including registry, services, startup folders, and WMI subscriptions.",
       "domain": "cybersecurity",
@@ -8085,6 +8148,27 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/implementing-privileged-access-workstation"
+    },
+    {
+      "name": "implementing-privileged-identity-management-with-azure",
+      "description": "Configure Azure AD Privileged Identity Management (PIM) using Microsoft Graph API to manage eligible role assignments, just-in-time activation, access reviews, and role management policies for zero-trust privileged access.",
+      "domain": "cybersecurity",
+      "subdomain": "identity-access-management",
+      "tags": [
+        "Azure-AD",
+        "PIM",
+        "privileged-access",
+        "just-in-time",
+        "eligible-roles",
+        "Microsoft-Graph",
+        "zero-trust",
+        "access-reviews",
+        "Entra-ID"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/implementing-privileged-identity-management-with-azure"
     },
     {
       "name": "implementing-privileged-session-monitoring",
@@ -11670,6 +11754,25 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/performing-subdomain-enumeration-with-subfinder"
+    },
+    {
+      "name": "performing-supply-chain-attack-simulation",
+      "description": "Simulate and detect software supply chain attacks including typosquatting detection via Levenshtein distance, dependency confusion testing against private registries, package hash verification with pip, and known vulnerability scanning with pip-audit.",
+      "domain": "cybersecurity",
+      "subdomain": "application-security",
+      "tags": [
+        "supply-chain",
+        "typosquatting",
+        "dependency-confusion",
+        "package-verification",
+        "pip-audit",
+        "PyPI",
+        "software-composition-analysis"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/performing-supply-chain-attack-simulation"
     },
     {
       "name": "performing-thick-client-application-penetration-test",
