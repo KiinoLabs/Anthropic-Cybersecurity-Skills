@@ -1,17 +1,18 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-03-10T23:59:37Z",
+  "generated_at": "2026-03-11T00:43:13Z",
   "repository": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-  "total_skills": 727,
+  "total_skills": 734,
   "total_domains": 1,
-  "total_subdomains": 35,
+  "total_subdomains": 36,
   "domain_stats": {
-    "cybersecurity": 727
+    "cybersecurity": 734
   },
   "subdomain_stats": {
     "digital-forensics": 37,
+    "identity-security": 2,
     "malware-analysis": 39,
-    "security-operations": 35,
+    "security-operations": 36,
     "threat-intelligence": 50,
     "cloud-security": 60,
     "soc-operations": 33,
@@ -20,11 +21,11 @@
     "container-security": 30,
     "log-analysis": 1,
     "phishing-defense": 16,
-    "network-security": 39,
+    "network-security": 40,
     "incident-response": 25,
     "threat-hunting": 55,
     "red-teaming": 24,
-    "devsecops": 16,
+    "devsecops": 17,
     "identity-access-management": 35,
     "vulnerability-management": 25,
     "web-application-security": 42,
@@ -32,23 +33,23 @@
     "zero-trust-architecture": 13,
     "cryptography": 14,
     "endpoint-security": 17,
+    "ransomware-defense": 7,
     "ot-ics-security": 28,
     "api-security": 28,
     "threat-detection": 7,
-    "identity-security": 1,
-    "ransomware-defense": 5,
     "deception-technology": 2,
     "application-security": 4,
     "compliance-governance": 5,
     "identity-and-access-management": 1,
     "zero-trust": 1,
     "red-team": 2,
-    "offensive-security": 1
+    "offensive-security": 1,
+    "wireless-security": 1
   },
   "top_tags": [
     {
       "tag": "threat-hunting",
-      "count": 62
+      "count": 63
     },
     {
       "tag": "mitre-attack",
@@ -67,12 +68,12 @@
       "count": 41
     },
     {
-      "tag": "owasp",
+      "tag": "incident-response",
       "count": 37
     },
     {
-      "tag": "incident-response",
-      "count": 36
+      "tag": "owasp",
+      "count": 37
     },
     {
       "tag": "network-security",
@@ -103,6 +104,10 @@
       "count": 28
     },
     {
+      "tag": "phishing",
+      "count": 25
+    },
+    {
       "tag": "kubernetes",
       "count": 25
     },
@@ -117,10 +122,6 @@
     {
       "tag": "zero-trust",
       "count": 25
-    },
-    {
-      "tag": "phishing",
-      "count": 24
     },
     {
       "tag": "access-control",
@@ -145,6 +146,22 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/acquiring-disk-image-with-dd-and-dcfldd"
+    },
+    {
+      "name": "analyzing-active-directory-acl-abuse",
+      "description": "Detect dangerous ACL misconfigurations in Active Directory using ldap3 to identify GenericAll, WriteDACL, and WriteOwner abuse paths",
+      "domain": "cybersecurity",
+      "subdomain": "identity-security",
+      "tags": [
+        "active-directory",
+        "acl-abuse",
+        "ldap",
+        "privilege-escalation"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/analyzing-active-directory-acl-abuse"
     },
     {
       "name": "analyzing-android-malware-with-apktool",
@@ -3284,6 +3301,25 @@
       "path": "skills/deploying-palo-alto-prisma-access-zero-trust"
     },
     {
+      "name": "deploying-ransomware-canary-files",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "ransomware-defense",
+      "tags": [
+        "ransomware",
+        "canary-files",
+        "watchdog",
+        "detection",
+        "early-warning",
+        "deception",
+        "defense"
+      ],
+      "version": "1.0.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/deploying-ransomware-canary-files"
+    },
+    {
       "name": "deploying-software-defined-perimeter",
       "description": "Deploying Software Defined Perimeter",
       "domain": "cybersecurity",
@@ -3934,6 +3970,22 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/detecting-evasion-techniques-in-endpoint-logs"
+    },
+    {
+      "name": "detecting-exfiltration-over-dns-with-zeek",
+      "description": "Detect DNS-based data exfiltration by analyzing Zeek dns.log for high-entropy subdomains and anomalous query patterns",
+      "domain": "cybersecurity",
+      "subdomain": "network-security",
+      "tags": [
+        "dns-exfiltration",
+        "zeek",
+        "entropy-analysis",
+        "threat-hunting"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/detecting-exfiltration-over-dns-with-zeek"
     },
     {
       "name": "detecting-fileless-attacks-on-endpoints",
@@ -7650,6 +7702,26 @@
       "path": "skills/implementing-image-provenance-verification-with-cosign"
     },
     {
+      "name": "implementing-immutable-backup-with-restic",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "ransomware-defense",
+      "tags": [
+        "restic",
+        "backup",
+        "immutable",
+        "ransomware",
+        "s3",
+        "object-lock",
+        "worm",
+        "recovery"
+      ],
+      "version": "1.0.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/implementing-immutable-backup-with-restic"
+    },
+    {
       "name": "implementing-infrastructure-as-code-security-scanning",
       "description": ">",
       "domain": "cybersecurity",
@@ -8646,6 +8718,22 @@
       "path": "skills/implementing-secrets-management-with-vault"
     },
     {
+      "name": "implementing-secrets-scanning-in-ci-cd",
+      "description": "Integrate gitleaks and trufflehog into CI/CD pipelines to detect leaked secrets before deployment",
+      "domain": "cybersecurity",
+      "subdomain": "devsecops",
+      "tags": [
+        "secrets-scanning",
+        "gitleaks",
+        "trufflehog",
+        "ci-cd"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/implementing-secrets-scanning-in-ci-cd"
+    },
+    {
       "name": "implementing-security-chaos-engineering",
       "description": ">",
       "domain": "cybersecurity",
@@ -8778,6 +8866,22 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/implementing-soar-automation-with-phantom"
+    },
+    {
+      "name": "implementing-soar-playbook-for-phishing",
+      "description": "Automate phishing incident response using Splunk SOAR REST API to create containers, add artifacts, and trigger playbooks",
+      "domain": "cybersecurity",
+      "subdomain": "security-operations",
+      "tags": [
+        "soar",
+        "splunk-phantom",
+        "phishing",
+        "incident-response"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/implementing-soar-playbook-for-phishing"
     },
     {
       "name": "implementing-soar-playbook-with-palo-alto-xsoar",
@@ -9874,6 +9978,22 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/performing-blind-ssrf-exploitation"
+    },
+    {
+      "name": "performing-bluetooth-security-assessment",
+      "description": "Assess Bluetooth Low Energy device security by scanning, enumerating GATT services, and detecting vulnerabilities",
+      "domain": "cybersecurity",
+      "subdomain": "wireless-security",
+      "tags": [
+        "bluetooth",
+        "ble",
+        "gatt",
+        "wireless-security"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/performing-bluetooth-security-assessment"
     },
     {
       "name": "performing-brand-monitoring-for-impersonation",
