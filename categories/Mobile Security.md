@@ -1,0 +1,51 @@
+# Mobile Security Skills
+
+*Generated category with 12 skills*
+
+
+- **analyzing-ios-app-security-with-objection**
+  Performs runtime mobile security exploration of iOS applications using Objection, a Frida-powered toolkit that enables security testers to interact with app internals without jailbreaking. Use when assessing iOS app security posture, bypassing client-side protections, dumping keychain items, inspecting filesystem storage, and evaluating runtime behavior. Activates for requests involving iOS security testing, Objection runtime analysis, Frida-based iOS assessment, or mobile runtime exploration.
+
+
+- **detecting-mobile-malware-behavior**
+  Detects and analyzes malicious behavior in mobile applications through behavioral analysis, permission abuse detection, network traffic monitoring, and dynamic instrumentation. Use when analyzing suspicious mobile applications for data exfiltration, command-and-control communication, credential stealing, SMS interception, or other malware indicators. Activates for requests involving mobile malware analysis, app behavior monitoring, trojan detection, or suspicious app investigation.
+
+
+- **exploiting-deeplink-vulnerabilities**
+  Tests and exploits deep link (URL scheme and App Link) vulnerabilities in Android and iOS mobile applications to identify unauthorized access, data injection, intent hijacking, and redirect manipulation. Use when assessing mobile app attack surface through custom URI schemes, Android App Links, iOS Universal Links, or intent-based navigation. Activates for requests involving deep link security testing, URL scheme exploitation, mobile intent abuse, or link hijacking.
+
+
+- **exploiting-insecure-data-storage-in-mobile**
+  Identifies and exploits insecure local data storage vulnerabilities in Android and iOS mobile applications including unencrypted databases, world-readable files, insecure SharedPreferences, plaintext credential storage, and improper keychain/keystore usage. Use when performing mobile penetration testing focused on OWASP M9 (Insecure Data Storage) or assessing compliance with MASVS-STORAGE requirements. Activates for requests involving mobile data storage security, local storage exploitation, SharedPreferences analysis, or mobile data leakage assessment.
+
+
+- **implementing-mobile-application-management**
+  Implements Mobile Application Management (MAM) policies to protect enterprise data on managed and unmanaged mobile devices through app-level controls including data loss prevention, selective wipe, app configuration, and containerization. Use when securing corporate apps on BYOD devices, implementing Intune App Protection Policies, or enforcing data separation between personal and work apps. Activates for requests involving MAM deployment, app protection policies, mobile containerization, or BYOD security.
+
+
+- **intercepting-mobile-traffic-with-burpsuite**
+  Intercepts and analyzes HTTP/HTTPS traffic from mobile applications using Burp Suite proxy to identify insecure API communications, authentication flaws, data leakage, and server-side vulnerabilities. Use when performing mobile application penetration testing, assessing API security, or evaluating client-server communication patterns. Activates for requests involving mobile traffic interception, Burp Suite mobile proxy, API security testing, or mobile HTTPS analysis.
+
+
+- **performing-android-app-static-analysis-with-mobsf**
+  Performs automated static analysis of Android applications using Mobile Security Framework (MobSF) to identify hardcoded secrets, insecure permissions, vulnerable components, weak cryptography, and code-level security flaws without executing the application. Use when assessing Android APK/AAB files for security vulnerabilities before deployment, during penetration testing, or as part of CI/CD security gates. Activates for requests involving Android static analysis, MobSF scanning, APK security assessment, or mobile application code review.
+
+
+- **performing-dynamic-analysis-of-android-app**
+  Performs runtime dynamic analysis of Android applications using Frida, Objection, and Android Debug Bridge to observe application behavior during execution, intercept function calls, modify runtime values, and identify vulnerabilities that static analysis misses. Use when testing Android apps for runtime security flaws, hooking sensitive methods, bypassing client-side protections, or analyzing obfuscated applications. Activates for requests involving Android dynamic analysis, runtime hooking, Frida Android instrumentation, or live app behavior analysis.
+
+
+- **performing-mobile-app-certificate-pinning-bypass**
+  Bypasses SSL/TLS certificate pinning implementations in Android and iOS applications to enable traffic interception during authorized security assessments. Covers OkHttp, TrustManager, NSURLSession, and third-party pinning library bypass techniques using Frida, Objection, and custom scripts. Activates for requests involving certificate pinning bypass, SSL pinning defeat, mobile TLS interception, or proxy-resistant app testing.
+
+
+- **reverse-engineering-ios-app-with-frida**
+  Reverse engineers iOS applications using Frida dynamic instrumentation to understand internal logic, extract encryption keys, bypass security controls, and discover hidden functionality without source code access. Use when performing authorized iOS penetration testing, analyzing proprietary protocols, understanding obfuscated logic, or extracting runtime secrets from iOS binaries. Activates for requests involving iOS reverse engineering, Frida iOS hooking, Objective-C/Swift method tracing, or iOS binary analysis.
+
+
+- **testing-android-intents-for-vulnerabilities**
+  Tests Android inter-process communication (IPC) through intents for vulnerabilities including intent injection, unauthorized component access, broadcast sniffing, pending intent hijacking, and content provider data leakage. Use when assessing Android app attack surface through exported components, testing intent-based data flows, or evaluating IPC security. Activates for requests involving Android intent security, IPC testing, exported component analysis, or Drozer assessment.
+
+
+- **testing-mobile-api-authentication**
+  Tests authentication and authorization mechanisms in mobile application APIs to identify broken authentication, insecure token management, session fixation, privilege escalation, and IDOR vulnerabilities. Use when performing API security assessments against mobile app backends, testing JWT implementations, evaluating OAuth flows, or assessing session management. Activates for requests involving mobile API auth testing, token security assessment, OAuth mobile flow testing, or API authorization bypass.

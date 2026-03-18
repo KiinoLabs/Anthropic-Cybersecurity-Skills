@@ -1,0 +1,7 @@
+# Blockchain Security Skills
+
+*Generated category with 1 skills*
+
+
+- **analyzing-ethereum-smart-contract-vulnerabilities**
+  Perform static and symbolic analysis of Solidity smart contracts using Slither and Mythril to detect reentrancy, integer overflow, access control, and other vulnerability classes before deployment to Ethereum mainnet.
